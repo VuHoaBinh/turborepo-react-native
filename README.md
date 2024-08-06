@@ -1,32 +1,50 @@
-# Turborepo react-native starter
+# Welcome to your Expo app 👋
 
-This is an official starter Turborepo.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Using this example
+## Get started
 
-Run the following command:
+1. Install dependencies
 
-```sh
-npx create-turbo@latest -e with-react-native-web
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+    npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
 ```
 
-## What's inside?
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-This Turborepo includes the following packages/apps:
+## Learn more
 
-### Apps and Packages
+To learn more about developing your project with Expo, look at the following resources:
 
-- `native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)
-- `web`: a [Next.js](https://nextjs.org/) app built with [react-native-web](https://necolas.github.io/react-native-web/)
-- `@repo/ui`: a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `native` applications
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## Join the community
 
-### Utilities
+Join our community of developers creating universal apps.
 
-This Turborepo has some additional tools already setup for you:
-
-- [Expo](https://docs.expo.dev/) for native development
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Prettier](https://prettier.io) for code formatting
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
